@@ -16,6 +16,7 @@ class NoUiModeActivity : AppCompatActivity() {
     }
 
     private fun initView() {
+        //手动切换深色模式
         btnLight.setOnClickListener {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         }
